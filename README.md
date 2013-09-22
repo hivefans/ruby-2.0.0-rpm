@@ -12,11 +12,11 @@ This spec is an attempt to push for a stable replacement of Ruby 1.8.x with 1.9.
     yum install -y libyaml libyaml-devel libffi libffi-devel
     rpmdev-setuptree
     cd ~/rpmbuild/SOURCES
-    wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
+    wget http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
     cd ~/rpmbuild/SPECS
-    wget https://raw.github.com/imeyer/ruby-1.9.2-rpm/master/ruby19.spec
+    wget https://raw.github.com/hivefans/ruby-2.0.0-rpm/master/ruby200.spec
     rpmbuild -bb ruby19.spec
-    rpm -Uvh ~/rpmbuild/RPMS/x86_64/ruby-1.9.2p320-1.ruby-1.9.2p320-1.i386.rpm
+    
 
 **PROFIT!**
 
