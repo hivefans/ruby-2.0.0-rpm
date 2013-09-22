@@ -17,6 +17,8 @@ This spec is an attempt to push for a stable replacement of Ruby 1.8.x with 1.9.
     wget https://raw.github.com/hivefans/ruby-2.0.0-rpm/master/ruby200.spec
     rpmbuild -bb ruby19.spec
     
+    rpm -ivh ~/rpmbuild/RPMS/x86_64/ruby-2.0.0p247-2.x86_64.rpm
+    
 
 **PROFIT!**
 
